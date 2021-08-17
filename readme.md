@@ -26,13 +26,16 @@ Cors:
 
 Копипастим эти строки:
 
+#### Сервер:
 ```
-git clone https://github.com/evyz/todos-react-nodejs-graphql.git -b client client
 git clone https://github.com/evyz/todos-react-nodejs-graphql.git -b server server
 cd server
 npm i
 npm run dev
-### Запускаем ещё один терминал
+```
+#### Клиент:
+```
+git clone https://github.com/evyz/todos-react-nodejs-graphql.git -b client client
 cd client
 npm i
 npm run start
