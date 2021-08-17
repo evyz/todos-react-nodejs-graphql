@@ -2,6 +2,10 @@
 
 Задание: разработать приложение todos, используя graphQl для работы с запросами
 
+Код:
+- [Backend](https://github.com/evyz/todos-react-nodejs-graphql/tree/server)
+- [Frontend](https://github.com/evyz/todos-react-nodejs-graphql/tree/client)
+
 ### Зависимости:
 
 #### Backend:
