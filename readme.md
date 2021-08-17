@@ -8,19 +8,19 @@
 
 Сервер:
 
--   [express] - для запуска сервера
--   [graphql]
--   [express-graphql] - для связки express с graphql
+-   [express](https://www.npmjs.com/package/express) - для запуска сервера
+-   [graphql](https://www.npmjs.com/package/graphql)
+-   [express-graphql](https://www.npmjs.com/package/express-graphql) - для связки express с graphql
 
 Cors:
 
--   [cors]
+-   [cors](https://www.npmjs.com/package/cors)
 
 #### FrontEnd:
 
--   [react]
--   [graphql]
--   [@apollo/client] - для записи запросов на backend
+-   [react](https://www.npmjs.com/package/react)
+-   [graphql](https://www.npmjs.com/package/graphql)
+-   [@apollo/client](https://www.npmjs.com/package/@apollo/client) - для записи запросов на backend
 
 ### Инициализация:
 
