@@ -32,7 +32,8 @@ git clone https://github.com/evyz/todos-react-nodejs-graphql.git -b server serve
 cd server
 npm i
 npm run dev
-cd ../client
+### Запускаем ещё один терминал
+cd client
 npm i
 npm run start
 ```
