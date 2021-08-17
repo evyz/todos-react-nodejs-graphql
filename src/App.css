@@ -1,38 +1,65 @@
 .App {
-  text-align: center;
+    width: 100%;
+    height: 100vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+button {
+    background: #313131;
+    border: none;
+    outline: none;
+    padding: 10px;
+    color: white;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.text {
+    background: none;
+    color: black;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.true {
+    text-decoration: underline;
 }
 
-.App-link {
-  color: #61dafb;
+.todos {
+    width: 700px;
+    height: 800px;
+    margin: auto;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+
+    border-radius: 15px;
+    overflow: hidden;
+
+    box-shadow: 10px 10px 20px rgb(180, 180, 180);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.todos .title {
+    width: 100%;
+    background: #df2222;
+}
+
+.todos .half:first-child {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.todos .half {
+    width: 100%;
+    height: 50%;
+}
+
+.todos .todos-map {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
